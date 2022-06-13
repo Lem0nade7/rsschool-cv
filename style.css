@@ -8,6 +8,7 @@
 
 body {
     background-color: #6F8E91;
+    margin-bottom: ;
 }
 
 .container {
@@ -138,7 +139,7 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 24px;
 
 }
