@@ -6,9 +6,12 @@
     color: #293a68;
 }
 
+html {
+    scroll-behavior: smooth
+}
 body {
     background-color: #6F8E91;
-    margin-bottom: ;
+    
 }
 
 .container {
@@ -56,6 +59,7 @@ a {
     text-align: center;
     border-radius: 10px;
     border: 2px solid #24595E;
+    box-shadow: 0 0 10px 5px 	#6F8E91
 }
 
 .horizontal-menu a {
@@ -72,7 +76,7 @@ a {
 	padding: 0;
 	height: 0;
 	border: none;
-	box-shadow: 0 0 10px 1px 	#3B2A6B;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
 }
 
 .name {
@@ -88,7 +92,7 @@ a {
 	padding: 0;
 	height: 0;
 	border: none;
-	box-shadow: 0 0 10px 1px 	#3B2A6B;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
 
 }
 
@@ -107,7 +111,7 @@ a {
 	padding: 0;
 	height: 0;
 	border: none;
-	box-shadow: 0 0 10px 1px 	#3B2A6B;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
 
 }
 
@@ -129,10 +133,18 @@ a {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 2px 50px 2px 50px;
+    box-shadow: 0 0 10px 1px 	#3B2A6B
 }
 
 h2 {
     font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 .main-info {
@@ -148,9 +160,14 @@ h2 {
     
 }
 
+.info-list-item {
+    margin: 10px 0;   
+}
+
 .about-me {
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .qualities {
@@ -158,12 +175,71 @@ h2 {
     margin-left: 30px;
 }
 
-.big-txt {
+.qualities-two {
+    list-style: circle;
+    margin-left: 30px;
+}
+
+.languages ol {
     font-weight: 700;
 }
 
-#wide-txt {
-    text-align: justify;
+.code-example {
+    text-align: center;
+    
+}
+
+.big-txt {
+    font-weight: 700;
+}
+ 
+.education {
+    margin: 10px 0;
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+}
+
+/* main styles end */
+
+.rss {
+    width: 200px;
+    height: 100px;
+    filter: invert(1);
+
+}
+
+.line-footer { 
+    margin: 40px 50px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 5px 	#3B2A6B;
+}
+
+.footer-github {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+}    
+
+#footer-github {
+    padding: 35px;
+}
+
+#year {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 1140px) {
