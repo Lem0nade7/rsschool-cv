@@ -9,6 +9,7 @@
 html {
     scroll-behavior: smooth
 }
+
 body {
     background-color: #6F8E91;
     
@@ -27,9 +28,6 @@ body {
     justify-content: space-between;
     padding-top: 50px;
 }
-
-
-
 
 ul {
     list-style: none; 
@@ -68,7 +66,6 @@ a {
     text-decoration: none;
 }
 
-
 /* header styles end */
 
 .line-one {
@@ -83,8 +80,6 @@ a {
    text-align: center;
    margin-top: 40px;
    margin-bottom: 40px;
-
-
 }
 
 .line-two { 
@@ -93,7 +88,6 @@ a {
 	height: 0;
 	border: none;
 	box-shadow: 0 0 10px 2px 	#3B2A6B;
-
 }
 
 .vacancy {
@@ -112,7 +106,6 @@ a {
 	height: 0;
 	border: none;
 	box-shadow: 0 0 10px 2px 	#3B2A6B;
-
 }
 
 .line-four { 
@@ -121,7 +114,6 @@ a {
 	height: 0;
 	border: none;
 	box-shadow: 0 0 10px 1px 	#3B2A6B;
-
 }
 
 .avatar {
@@ -153,11 +145,9 @@ h3 {
     margin-top: 50px;
     padding-bottom: 50px;
     font-size: 24px;
-
 }
 .info {
     text-indent: 50px;
-    
 }
 
 .info-list-item {
@@ -208,7 +198,6 @@ h3 {
     width: 200px;
     height: 100px;
     filter: invert(1);
-
 }
 
 .line-footer { 
@@ -234,7 +223,6 @@ h3 {
     padding-bottom: 20px;
     font-size: 20px;
     text-align: center;
-    
 }
 
 .container-footer {
