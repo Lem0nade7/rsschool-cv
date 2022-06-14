@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #293a68;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: #6F8E91;
+    
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #B8BED0;
+    box-shadow: 0 0 10px 10px 	#B8BED0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+ul {
+    list-style: none; 
+}
+
+a {
+    color:#24595E;
+    text-decoration: underline;
+}
+
+.nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.horizontal-menu {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-menu li{
+    font-size: 24px;
+    background-color: #B8BED0;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #24595E;
+    box-shadow: 0 0 10px 5px 	#6F8E91
+}
+
+.horizontal-menu a {
+    padding: 3px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* header styles end */
+
+.line-one {
+    margin: 40px 60px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
+}
+
+.name {
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.line-two { 
+    margin: 40px 300px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
+}
+
+.vacancy {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.line-three { 
+    margin: 40px 60px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 2px 	#3B2A6B;
+}
+
+.line-four { 
+    margin: 40px 0px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 1px 	#3B2A6B;
+}
+
+.avatar {
+    width: 250px;
+    height: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 2px 50px 2px 50px;
+    box-shadow: 0 0 10px 1px 	#3B2A6B
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.main-info {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+.info {
+    text-indent: 50px;
+}
+
+.info-list-item {
+    margin: 10px 0;   
+}
+
+.about-me {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.qualities {
+    list-style: circle;
+    margin-left: 30px;
+}
+
+.qualities-two {
+    list-style: circle;
+    margin-left: 30px;
+}
+
+.languages ol {
+    font-weight: 700;
+}
+
+.code-example {
+    text-align: center;
+    
+}
+
+.big-txt {
+    font-weight: 700;
+}
+ 
+.education {
+    margin: 10px 0;
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+}
+
+/* main styles end */
+
+.rss {
+    width: 200px;
+    height: 100px;
+    filter: invert(1);
+}
+
+.line-footer { 
+    margin: 40px 50px;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 5px 	#3B2A6B;
+}
+
+.footer-github {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+}    
+
+#footer-github {
+    padding: 35px;
+}
+
+#year {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1140px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .horizontal-menu {
+        flex-direction: column;
+    }
+    .horizontal-menu li {
+        max-width: 200px;
+    }
+}
